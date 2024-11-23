@@ -12,7 +12,7 @@
 ~H
 # Command Line History (newest to oldest):
 :wq!
-|2,0,1732349737,,"wq!"
+|2,0,1732358397,,"wq!"
 
 # Search String History (newest to oldest):
 
@@ -25,26 +25,144 @@
 # Registers:
 
 # File marks:
-'0  37  30  ~/jenkinsinstallation.txt
-|4,48,37,30,1732349737,"~/jenkinsinstallation.txt"
-'1  39  35  ~/jenkinsinstallation.txt
-|4,49,39,35,1732348931,"~/jenkinsinstallation.txt"
-'2  39  35  ~/jenkinsinstallation.txt
-|4,50,39,35,1732348931,"~/jenkinsinstallation.txt"
+'0  97  0  ~/apache_tomcat_installation
+|4,48,97,0,1732358397,"~/apache_tomcat_installation"
+'1  160  24  ~/apache-tomcat-9.0.97/conf/server.xml
+|4,49,160,24,1732357852,"~/apache-tomcat-9.0.97/conf/server.xml"
+'2  71  24  ~/apache-tomcat-9.0.97/conf/server.xml
+|4,50,71,24,1732356868,"~/apache-tomcat-9.0.97/conf/server.xml"
+'3  71  24  ~/apache-tomcat-9.0.97/conf/server.xml
+|4,51,71,24,1732356868,"~/apache-tomcat-9.0.97/conf/server.xml"
+'4  37  30  ~/jenkinsinstallation.txt
+|4,52,37,30,1732349737,"~/jenkinsinstallation.txt"
+'5  39  35  ~/jenkinsinstallation.txt
+|4,53,39,35,1732348931,"~/jenkinsinstallation.txt"
+'6  39  35  ~/jenkinsinstallation.txt
+|4,54,39,35,1732348931,"~/jenkinsinstallation.txt"
 
 # Jumplist (newest first):
+-'  97  0  ~/apache_tomcat_installation
+|4,39,97,0,1732358397,"~/apache_tomcat_installation"
+-'  1  0  ~/apache_tomcat_installation
+|4,39,1,0,1732357909,"~/apache_tomcat_installation"
+-'  160  24  ~/apache-tomcat-9.0.97/conf/server.xml
+|4,39,160,24,1732357852,"~/apache-tomcat-9.0.97/conf/server.xml"
+-'  160  24  ~/apache-tomcat-9.0.97/conf/server.xml
+|4,39,160,24,1732357852,"~/apache-tomcat-9.0.97/conf/server.xml"
+-'  71  24  ~/apache-tomcat-9.0.97/conf/server.xml
+|4,39,71,24,1732357155,"~/apache-tomcat-9.0.97/conf/server.xml"
+-'  71  24  ~/apache-tomcat-9.0.97/conf/server.xml
+|4,39,71,24,1732357155,"~/apache-tomcat-9.0.97/conf/server.xml"
+-'  71  24  ~/apache-tomcat-9.0.97/conf/server.xml
+|4,39,71,24,1732356868,"~/apache-tomcat-9.0.97/conf/server.xml"
+-'  71  24  ~/apache-tomcat-9.0.97/conf/server.xml
+|4,39,71,24,1732356868,"~/apache-tomcat-9.0.97/conf/server.xml"
+-'  1  0  ~/apache-tomcat-9.0.97/conf/server.xml
+|4,39,1,0,1732356845,"~/apache-tomcat-9.0.97/conf/server.xml"
+-'  1  0  ~/apache-tomcat-9.0.97/conf/server.xml
+|4,39,1,0,1732356845,"~/apache-tomcat-9.0.97/conf/server.xml"
+-'  1  0  ~/apache-tomcat-9.0.97/conf/server.xml
+|4,39,1,0,1732356845,"~/apache-tomcat-9.0.97/conf/server.xml"
+-'  1  0  ~/apache-tomcat-9.0.97/conf/server.xml
+|4,39,1,0,1732356845,"~/apache-tomcat-9.0.97/conf/server.xml"
+-'  37  30  ~/jenkinsinstallation.txt
+|4,39,37,30,1732349737,"~/jenkinsinstallation.txt"
+-'  37  30  ~/jenkinsinstallation.txt
+|4,39,37,30,1732349737,"~/jenkinsinstallation.txt"
+-'  37  30  ~/jenkinsinstallation.txt
+|4,39,37,30,1732349737,"~/jenkinsinstallation.txt"
+-'  37  30  ~/jenkinsinstallation.txt
+|4,39,37,30,1732349737,"~/jenkinsinstallation.txt"
+-'  37  30  ~/jenkinsinstallation.txt
+|4,39,37,30,1732349737,"~/jenkinsinstallation.txt"
+-'  37  30  ~/jenkinsinstallation.txt
+|4,39,37,30,1732349737,"~/jenkinsinstallation.txt"
+-'  37  30  ~/jenkinsinstallation.txt
+|4,39,37,30,1732349737,"~/jenkinsinstallation.txt"
 -'  37  30  ~/jenkinsinstallation.txt
 |4,39,37,30,1732349737,"~/jenkinsinstallation.txt"
 -'  39  35  ~/jenkinsinstallation.txt
 |4,39,39,35,1732349714,"~/jenkinsinstallation.txt"
+-'  39  35  ~/jenkinsinstallation.txt
+|4,39,39,35,1732349714,"~/jenkinsinstallation.txt"
+-'  39  35  ~/jenkinsinstallation.txt
+|4,39,39,35,1732349714,"~/jenkinsinstallation.txt"
+-'  39  35  ~/jenkinsinstallation.txt
+|4,39,39,35,1732349714,"~/jenkinsinstallation.txt"
+-'  39  35  ~/jenkinsinstallation.txt
+|4,39,39,35,1732349714,"~/jenkinsinstallation.txt"
+-'  39  35  ~/jenkinsinstallation.txt
+|4,39,39,35,1732349714,"~/jenkinsinstallation.txt"
+-'  39  35  ~/jenkinsinstallation.txt
+|4,39,39,35,1732349714,"~/jenkinsinstallation.txt"
+-'  39  35  ~/jenkinsinstallation.txt
+|4,39,39,35,1732349714,"~/jenkinsinstallation.txt"
+-'  39  35  ~/jenkinsinstallation.txt
+|4,39,39,35,1732348931,"~/jenkinsinstallation.txt"
+-'  39  35  ~/jenkinsinstallation.txt
+|4,39,39,35,1732348931,"~/jenkinsinstallation.txt"
+-'  39  35  ~/jenkinsinstallation.txt
+|4,39,39,35,1732348931,"~/jenkinsinstallation.txt"
+-'  39  35  ~/jenkinsinstallation.txt
+|4,39,39,35,1732348931,"~/jenkinsinstallation.txt"
+-'  39  35  ~/jenkinsinstallation.txt
+|4,39,39,35,1732348931,"~/jenkinsinstallation.txt"
+-'  39  35  ~/jenkinsinstallation.txt
+|4,39,39,35,1732348931,"~/jenkinsinstallation.txt"
+-'  39  35  ~/jenkinsinstallation.txt
+|4,39,39,35,1732348931,"~/jenkinsinstallation.txt"
 -'  39  35  ~/jenkinsinstallation.txt
 |4,39,39,35,1732348931,"~/jenkinsinstallation.txt"
 -'  1  0  ~/jenkinsinstallation.txt
 |4,39,1,0,1732348483,"~/jenkinsinstallation.txt"
 -'  1  0  ~/jenkinsinstallation.txt
 |4,39,1,0,1732348483,"~/jenkinsinstallation.txt"
+-'  1  0  ~/jenkinsinstallation.txt
+|4,39,1,0,1732348483,"~/jenkinsinstallation.txt"
+-'  1  0  ~/jenkinsinstallation.txt
+|4,39,1,0,1732348483,"~/jenkinsinstallation.txt"
+-'  1  0  ~/jenkinsinstallation.txt
+|4,39,1,0,1732348483,"~/jenkinsinstallation.txt"
+-'  1  0  ~/jenkinsinstallation.txt
+|4,39,1,0,1732348483,"~/jenkinsinstallation.txt"
+-'  1  0  ~/jenkinsinstallation.txt
+|4,39,1,0,1732348483,"~/jenkinsinstallation.txt"
+-'  1  0  ~/jenkinsinstallation.txt
+|4,39,1,0,1732348483,"~/jenkinsinstallation.txt"
+-'  1  0  ~/jenkinsinstallation.txt
+|4,39,1,0,1732348483,"~/jenkinsinstallation.txt"
+-'  1  0  ~/jenkinsinstallation.txt
+|4,39,1,0,1732348483,"~/jenkinsinstallation.txt"
+-'  1  0  ~/jenkinsinstallation.txt
+|4,39,1,0,1732348483,"~/jenkinsinstallation.txt"
+-'  1  0  ~/jenkinsinstallation.txt
+|4,39,1,0,1732348483,"~/jenkinsinstallation.txt"
+-'  1  0  ~/jenkinsinstallation.txt
+|4,39,1,0,1732348483,"~/jenkinsinstallation.txt"
+-'  1  0  ~/jenkinsinstallation.txt
+|4,39,1,0,1732348483,"~/jenkinsinstallation.txt"
+-'  1  0  ~/jenkinsinstallation.txt
+|4,39,1,0,1732348483,"~/jenkinsinstallation.txt"
+-'  1  0  ~/jenkinsinstallation.txt
+|4,39,1,0,1732348483,"~/jenkinsinstallation.txt"
 
 # History of marks within files (newest to oldest):
+
+> ~/apache_tomcat_installation
+	*	1732358394	0
+	"	97	0
+	^	97	0
+	.	96	26
+	+	7	85
+	+	61	34
+	+	96	26
+
+> ~/apache-tomcat-9.0.97/conf/server.xml
+	*	1732357841	0
+	"	160	24
+	^	71	25
+	.	71	24
+	+	71	24
 
 > ~/jenkinsinstallation.txt
 	*	1732349735	0

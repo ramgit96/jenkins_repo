@@ -1,0 +1,97 @@
+first install java and then goto 
+apachetomcat official website in google (apachetomcat download.com)
+or
+https://tomcat.apache.org/download-90.cgi this site
+ and next click on tomcat9 version
+copy the link address of tar.gz file into the instance 
+wget https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.97/bin/apache-tomcat-9.0.97.tar.gz
+
+ls 
+Extraxt tar.gz Archive:
+-------------------------------
+tar -zxvf apache-tomcat-9.0.85.tar.gz
+
+$ ls
+748-kunchamtps-repo1  apache-tomcat-9.0.85  apache-tomcat-9.0.85.tar.gz  kunchamtps-project1
+
+$ rm apache-tomcat-9.0.85.tar.gz
+
+$ ls
+748-kunchamtps-repo1  apache-tomcat-9.0.85  kunchamtps-project1
+
+$ cd apache-tomcat-9.0.85/
+
+apache-tomcat-9.0.85]$ ls
+bin  BUILDING.txt  conf  CONTRIBUTING.md  lib  LICENSE  logs  NOTICE  README.md  RELEASE-NOTES  RUNNING.txt  temp  webapps  work
+
+apache-tomcat-9.0.85]$ cd bin/
+
+bin]$ ls
+bootstrap.jar       ciphers.sh                    daemon.sh     setclasspath.bat  startup.sh            version.bat
+catalina.bat        commons-daemon.jar            digest.bat    setclasspath.sh   tomcat-juli.jar       version.sh
+catalina.sh         commons-daemon-native.tar.gz  digest.sh     shutdown.bat      tomcat-native.tar.gz
+catalina-tasks.xml  configtest.bat                makebase.bat  shutdown.sh       tool-wrapper.bat
+ciphers.bat         configtest.sh                 makebase.sh   startup.bat       tool-wrapper.sh
+
+
+Start/Stop Tomcat:
+----------------------------
+./startup.sh
+
+./shutdown.sh
+
+OR
+
+sh startup.sh
+
+sh shutdown.sh
+
+How to Set User Name and Password for Tomcat Manager App?
+-----------------------------------------------------------------------------------------
+conf / ---> configuration files for apache tomcat
+
+tomcat-7 <  tomcat-user.xml
+
+tomcat-8 > tomcat-user.xml and context.xml
+
+conf / tomcat-user.xml
+
+tomcat/webapps/manager/META-INF/context.xml
+
+TO SET PASSWORD FOR APACHE TOM-CAT
+-------------
+vim apache-tomcat-9.0.85/conf/tomcat-users.xml
+
+<role rolename="admin-gui"/>
+<role rolename="manager-gui"/>
+<role rolename="manager-script"/>
+<role rolename="manager-jmx"/>
+<role rolename="manager-status"/>
+<user username="tomcat" password="54321" roles="admin-gui,manager-gui,manager-script,manager-jmx,manager-status"/>
+
+vim apache-tomcat-9.0.85/webapps/manager/META-INF/context.xml
+
+ to Change Tomcat Default Port to Custom Port?
+--------------------------------------------------------------------------
+vim apache-tomcat-9.0.85/conf/server.xml
+
+Default Setting:
+------------------------
+ <Connector port="8080" protocol="HTTP/1.1"
+               connectionTimeout="20000"
+               redirectPort="8443"
+               maxParameterCount="1000"
+               />
+
+Custom Setting:
+-----------------------
+ <Connector port="8181" protocol="HTTP/1.1"
+               connectionTimeout="20000"
+               redirectPort="8443"
+               maxParameterCount="1000"
+               />
+
+
+add security groups port number 8080 or 8181 then connect to your web page 
+ipaddrss:8080 (portnumber)
+
