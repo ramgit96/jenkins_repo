@@ -1,0 +1,39 @@
+Prerequisites
+An AWS account. If you don’t have one, you can register here.
+
+An Amazon EC2 key pair. If you don’t have one, refer to Creating a key pair.
+
+An AWS IAM User with programmatic key access and permissions to launch EC2 instances
+
+first you have to install java in that ec2-instance with the help of following command
+
+>> sudo yum install java -y (press enter)
+
+***check whether java installed or not in your instance**
+
+java --version
+
+***you have to update your instance**
+sudo yum update -y
+
+***add the jenkins repo**
+sudo wget -O /etc/yum.repos.d/jenkins.repo \
+    https://pkg.jenkins.io/redhat-stable/jenkins.repo
+
+import a key file from jenkins CI-s and installation
+
+sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io-2023.key
+
+sudo yum upgrade
+
+sudo yum install jenkins -y
+
+sudo systemctl enable jenkins
+
+sudo systemctl start jenkins
+
+sudo systemctl status jenkins
+
+check your password in cd /var/lib/jenkins/secrets/initialadminpassword
+
+add security group port number 8080 
